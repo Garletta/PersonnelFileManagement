@@ -12,7 +12,7 @@
         <if test="staffName != null and staffName != ''">and staffName = #{staffName}</if>
         <if test="staffSex != null and staffSex != ''">and staffSex = #{staffSex}</if>
         <if test="staffAge != null and staffAge != ''">and staffAge = #{staffAge}</if>
-        <if test="staffEducation != null and staffEducation != ''">and staffEducation = #{staffEducation}</if>
+        <if test="staffEducation != null and staffEducation != ''">and staffEducation like "%"#{staffEducation}"%"</if>
         <if test="staffPosition != null and staffPosition != ''">and staffPosition = #{staffPosition}</if>
         <if test="staffTitle != null and staffTitle != ''">and staffTitle = #{staffTitle}</if>
         <if test="staffAddress != null and staffAddress != ''">and staffAddress = #{staffAddress}</if>
@@ -44,8 +44,8 @@
         where staffID = #{staffId};
     </update>
 
-    <delete id="deleteFile" parameterType="String">
-        delete from staff where staffID = #{staffId};
-    </delete>
+    <update id="deleteFile" parameterType="String">
+        update staff set working = 0 where staffID = #{staffId};
+    </update>
 
 </mapper>

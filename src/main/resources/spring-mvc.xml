@@ -15,6 +15,7 @@
 
     <!-- 默认的注解映射的支持 -->
     <mvc:annotation-driven />
+    <mvc:resources mapping="/images/**" location="/images/"></mvc:resources>
 
     <!-- 定义视图文件解析 -->
     <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">

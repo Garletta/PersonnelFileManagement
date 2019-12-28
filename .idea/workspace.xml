@@ -6,7 +6,246 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="67dfb109-aeaa-48cd-aacb-e205cc2befb4" name="Default Changelist" comment="" />
+    <list default="true" id="67dfb109-aeaa-48cd-aacb-e205cc2befb4" name="Default Changelist" comment="init UI">
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/title.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7cf9e022-0ba3-418b-81d1-aac1fd0d1902.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/7cf9e022-0ba3-418b-81d1-aac1fd0d1902.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/PersonnelFile_war_exploded/WEB-INF/classes/com/jx/controller/StaffController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/PersonnelFile_war_exploded/WEB-INF/classes/com/jx/controller/StaffController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/PersonnelFile_war_exploded/WEB-INF/classes/mapper/StaffMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/PersonnelFile_war_exploded/WEB-INF/classes/mapper/StaffMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/PersonnelFile_war_exploded/WEB-INF/classes/spring-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/PersonnelFile_war_exploded/WEB-INF/classes/spring-mvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/PersonnelFile_war_exploded/WEB-INF/views/addPersonnelFile.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/PersonnelFile_war_exploded/WEB-INF/views/addPersonnelFile.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/PersonnelFile_war_exploded/WEB-INF/views/fileManagement.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/PersonnelFile_war_exploded/WEB-INF/views/fileManagement.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/PersonnelFile_war_exploded/WEB-INF/views/showPersonnelFile.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/PersonnelFile_war_exploded/WEB-INF/views/showPersonnelFile.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/PersonnelFile_war_exploded/layui/css/layui.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/PersonnelFile_war_exploded/layui/css/layui.mobile.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/PersonnelFile_war_exploded/layui/css/modules/code.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/PersonnelFile_war_exploded/layui/css/modules/laydate/default/laydate.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/PersonnelFile_war_exploded/layui/css/modules/layer/default/icon-ext.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/PersonnelFile_war_exploded/layui/css/modules/layer/default/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/PersonnelFile_war_exploded/layui/css/modules/layer/default/layer.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/PersonnelFile_war_exploded/layui/css/modules/layer/default/loading-0.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/PersonnelFile_war_exploded/layui/css/modules/layer/default/loading-1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/PersonnelFile_war_exploded/layui/css/modules/layer/default/loading-2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/PersonnelFile_war_exploded/layui/font/iconfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/PersonnelFile_war_exploded/layui/font/iconfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/PersonnelFile_war_exploded/layui/font/iconfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/PersonnelFile_war_exploded/layui/font/iconfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/PersonnelFile_war_exploded/layui/font/iconfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/PersonnelFile_war_exploded/layui/images/face/0.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/PersonnelFile_war_exploded/layui/images/face/1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/PersonnelFile_war_exploded/layui/images/face/10.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/PersonnelFile_war_exploded/layui/images/face/11.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/PersonnelFile_war_exploded/layui/images/face/12.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/PersonnelFile_war_exploded/layui/images/face/13.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/PersonnelFile_war_exploded/layui/images/face/14.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/PersonnelFile_war_exploded/layui/images/face/15.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/PersonnelFile_war_exploded/layui/images/face/16.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/PersonnelFile_war_exploded/layui/images/face/17.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/PersonnelFile_war_exploded/layui/images/face/18.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/PersonnelFile_war_exploded/layui/images/face/19.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/PersonnelFile_war_exploded/layui/images/face/2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/PersonnelFile_war_exploded/layui/images/face/20.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/PersonnelFile_war_exploded/layui/images/face/21.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/PersonnelFile_war_exploded/layui/images/face/22.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/PersonnelFile_war_exploded/layui/images/face/23.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/PersonnelFile_war_exploded/layui/images/face/24.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/PersonnelFile_war_exploded/layui/images/face/25.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/PersonnelFile_war_exploded/layui/images/face/26.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/PersonnelFile_war_exploded/layui/images/face/27.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/PersonnelFile_war_exploded/layui/images/face/28.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/PersonnelFile_war_exploded/layui/images/face/29.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/PersonnelFile_war_exploded/layui/images/face/3.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/PersonnelFile_war_exploded/layui/images/face/30.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/PersonnelFile_war_exploded/layui/images/face/31.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/PersonnelFile_war_exploded/layui/images/face/32.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/PersonnelFile_war_exploded/layui/images/face/33.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/PersonnelFile_war_exploded/layui/images/face/34.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/PersonnelFile_war_exploded/layui/images/face/35.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/PersonnelFile_war_exploded/layui/images/face/36.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/PersonnelFile_war_exploded/layui/images/face/37.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/PersonnelFile_war_exploded/layui/images/face/38.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/PersonnelFile_war_exploded/layui/images/face/39.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/PersonnelFile_war_exploded/layui/images/face/4.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/PersonnelFile_war_exploded/layui/images/face/40.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/PersonnelFile_war_exploded/layui/images/face/41.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/PersonnelFile_war_exploded/layui/images/face/42.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/PersonnelFile_war_exploded/layui/images/face/43.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/PersonnelFile_war_exploded/layui/images/face/44.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/PersonnelFile_war_exploded/layui/images/face/45.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/PersonnelFile_war_exploded/layui/images/face/46.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/PersonnelFile_war_exploded/layui/images/face/47.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/PersonnelFile_war_exploded/layui/images/face/48.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/PersonnelFile_war_exploded/layui/images/face/49.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/PersonnelFile_war_exploded/layui/images/face/5.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/PersonnelFile_war_exploded/layui/images/face/50.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/PersonnelFile_war_exploded/layui/images/face/51.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/PersonnelFile_war_exploded/layui/images/face/52.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/PersonnelFile_war_exploded/layui/images/face/53.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/PersonnelFile_war_exploded/layui/images/face/54.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/PersonnelFile_war_exploded/layui/images/face/55.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/PersonnelFile_war_exploded/layui/images/face/56.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/PersonnelFile_war_exploded/layui/images/face/57.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/PersonnelFile_war_exploded/layui/images/face/58.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/PersonnelFile_war_exploded/layui/images/face/59.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/PersonnelFile_war_exploded/layui/images/face/6.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/PersonnelFile_war_exploded/layui/images/face/60.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/PersonnelFile_war_exploded/layui/images/face/61.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/PersonnelFile_war_exploded/layui/images/face/62.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/PersonnelFile_war_exploded/layui/images/face/63.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/PersonnelFile_war_exploded/layui/images/face/64.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/PersonnelFile_war_exploded/layui/images/face/65.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/PersonnelFile_war_exploded/layui/images/face/66.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/PersonnelFile_war_exploded/layui/images/face/67.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/PersonnelFile_war_exploded/layui/images/face/68.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/PersonnelFile_war_exploded/layui/images/face/69.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/PersonnelFile_war_exploded/layui/images/face/7.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/PersonnelFile_war_exploded/layui/images/face/70.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/PersonnelFile_war_exploded/layui/images/face/71.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/PersonnelFile_war_exploded/layui/images/face/8.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/PersonnelFile_war_exploded/layui/images/face/9.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/PersonnelFile_war_exploded/layui/lay/modules/carousel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/PersonnelFile_war_exploded/layui/lay/modules/code.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/PersonnelFile_war_exploded/layui/lay/modules/colorpicker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/PersonnelFile_war_exploded/layui/lay/modules/element.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/PersonnelFile_war_exploded/layui/lay/modules/flow.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/PersonnelFile_war_exploded/layui/lay/modules/form.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/PersonnelFile_war_exploded/layui/lay/modules/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/PersonnelFile_war_exploded/layui/lay/modules/laydate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/PersonnelFile_war_exploded/layui/lay/modules/layedit.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/PersonnelFile_war_exploded/layui/lay/modules/layer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/PersonnelFile_war_exploded/layui/lay/modules/laypage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/PersonnelFile_war_exploded/layui/lay/modules/laytpl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/PersonnelFile_war_exploded/layui/lay/modules/mobile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/PersonnelFile_war_exploded/layui/lay/modules/rate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/PersonnelFile_war_exploded/layui/lay/modules/slider.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/PersonnelFile_war_exploded/layui/lay/modules/table.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/PersonnelFile_war_exploded/layui/lay/modules/transfer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/PersonnelFile_war_exploded/layui/lay/modules/tree.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/PersonnelFile_war_exploded/layui/lay/modules/upload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/PersonnelFile_war_exploded/layui/lay/modules/util.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/PersonnelFile_war_exploded/layui/layui.all.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/PersonnelFile_war_exploded/layui/layui.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jx/controller/StaffController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jx/controller/StaffController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/StaffMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/StaffMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/spring-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring-mvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/addPersonnelFile.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/addPersonnelFile.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fileManagement.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fileManagement.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/showPersonnelFile.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/showPersonnelFile.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/layui/css/layui.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/layui/css/layui.mobile.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/layui/css/modules/code.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/layui/css/modules/laydate/default/laydate.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/layui/css/modules/layer/default/icon-ext.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/layui/css/modules/layer/default/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/layui/css/modules/layer/default/layer.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/layui/css/modules/layer/default/loading-0.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/layui/css/modules/layer/default/loading-1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/layui/css/modules/layer/default/loading-2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/layui/font/iconfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/layui/font/iconfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/layui/font/iconfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/layui/font/iconfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/layui/font/iconfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/layui/images/face/0.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/layui/images/face/1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/layui/images/face/10.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/layui/images/face/11.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/layui/images/face/12.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/layui/images/face/13.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/layui/images/face/14.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/layui/images/face/15.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/layui/images/face/16.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/layui/images/face/17.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/layui/images/face/18.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/layui/images/face/19.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/layui/images/face/2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/layui/images/face/20.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/layui/images/face/21.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/layui/images/face/22.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/layui/images/face/23.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/layui/images/face/24.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/layui/images/face/25.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/layui/images/face/26.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/layui/images/face/27.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/layui/images/face/28.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/layui/images/face/29.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/layui/images/face/3.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/layui/images/face/30.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/layui/images/face/31.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/layui/images/face/32.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/layui/images/face/33.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/layui/images/face/34.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/layui/images/face/35.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/layui/images/face/36.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/layui/images/face/37.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/layui/images/face/38.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/layui/images/face/39.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/layui/images/face/4.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/layui/images/face/40.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/layui/images/face/41.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/layui/images/face/42.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/layui/images/face/43.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/layui/images/face/44.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/layui/images/face/45.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/layui/images/face/46.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/layui/images/face/47.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/layui/images/face/48.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/layui/images/face/49.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/layui/images/face/5.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/layui/images/face/50.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/layui/images/face/51.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/layui/images/face/52.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/layui/images/face/53.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/layui/images/face/54.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/layui/images/face/55.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/layui/images/face/56.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/layui/images/face/57.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/layui/images/face/58.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/layui/images/face/59.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/layui/images/face/6.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/layui/images/face/60.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/layui/images/face/61.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/layui/images/face/62.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/layui/images/face/63.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/layui/images/face/64.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/layui/images/face/65.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/layui/images/face/66.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/layui/images/face/67.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/layui/images/face/68.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/layui/images/face/69.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/layui/images/face/7.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/layui/images/face/70.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/layui/images/face/71.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/layui/images/face/8.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/layui/images/face/9.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/carousel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/code.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/colorpicker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/element.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/flow.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/form.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/laydate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/layedit.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/layer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/laypage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/laytpl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/mobile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/rate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/slider.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/table.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/transfer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/tree.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/upload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/util.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/layui/layui.all.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/layui/layui.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jx/controller/StaffController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jx/controller/StaffController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/StaffMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/StaffMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/spring-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spring-mvc.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,11 +323,12 @@
     </option>
   </component>
   <component name="ProjectId" id="1VTFBavquJBQpD7bV7LZZ5gF2xF" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/images" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -96,6 +336,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\jinxi\IdeaProjects\PersonnelFile\src\main\webapp\images" />
       <recent name="C:\Users\jinxi\IdeaProjects\PersonnelFile\src\main\webapp\WEB-INF\views" />
     </key>
   </component>
@@ -194,12 +435,12 @@
           <expand>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@d78abff1" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@262aad4c" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@d78abff1" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@5d4400c0" type="9fbbdea:ServiceModel$ServiceNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@262aad4c" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@27ee934" type="9fbbdea:ServiceModel$ServiceNode" />
             </path>
           </expand>
           <select />
@@ -218,11 +459,42 @@
       <option name="presentableId" value="Default" />
       <updated>1577269043249</updated>
       <workItem from="1577269044824" duration="5659000" />
-      <workItem from="1577331000829" duration="18857000" />
+      <workItem from="1577331000829" duration="19206000" />
+      <workItem from="1577414764266" duration="2710000" />
+      <workItem from="1577432235529" duration="11613000" />
+      <workItem from="1577504443546" duration="1603000" />
+      <workItem from="1577511363970" duration="13431000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init UI" />
+    <option name="LAST_COMMIT_MESSAGE" value="init UI" />
   </component>
 </project>

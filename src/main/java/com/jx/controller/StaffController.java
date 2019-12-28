@@ -7,6 +7,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
 
 import java.util.List;
 
@@ -42,8 +43,9 @@ public class StaffController {
         return "/success";
     }
 
-    public String deleteFile(String staffId) {
-        int isDelete = staffService.deleteFile(staffId);
+    @RequestMapping(value = "/deleteFile", method = RequestMethod.GET)
+    public String deleteFile(@RequestParam(value = "id") String id) {
+        int isDelete = staffService.deleteFile(id);
         return "/success";
     }
 
