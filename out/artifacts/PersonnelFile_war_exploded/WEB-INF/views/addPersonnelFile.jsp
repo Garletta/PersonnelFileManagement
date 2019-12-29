@@ -18,18 +18,18 @@
         }
     </style>
 </head>
-<body class="body" background="/images/background.png">
+<body background="/images/background.png">
 <div class="container-fluid">
-    <div style="margin: 5px">
+    <div style="margin: 10px 0px 10px 0px">
         <img src="/images/title.png" style="max-width: 100%"/>
     </div>
-    <div style="background-color: tan; border-radius: 4px">
-        <nav class="nav justify-content-end">
-            <a class="nav-item nav-link active" href="/toHome" style="color:black;font-weight: bold">主页</a>
-            <a class="nav-item nav-link" href="/toAddFile" style="color:black;font-weight: bold">新增档案</a>
+    <div style="background-color: khaki;border-radius: 4px;margin: 10px 0px 10px 0px">
+        <nav class="nav nav-tabs">
+            <a class=" nav-item nav-link" href="/toHome" style="color: gray;font-weight: bold">主页</a>
+            <a class=" nav-item nav-link active" href="/toAddFile" style="color: gray;font-weight: bold">新增档案</a>
         </nav>
     </div>
-    <div style="margin: 5px;border: solid 1px;box-shadow: 2px 2px 2px" class="table-responsive">
+    <div style="border: solid 1px;box-shadow: 2px 2px 2px" class="table-responsive">
         <form method="post" action="/addFile">
             <table class="table table-striped table-bordered table-hover text-nowrap">
                 <table-caption style="font-weight: bold;font-family: 'Microsoft YaHei UI';margin: 20px;font-size: 200%">添加新的人事档案:</table-caption>

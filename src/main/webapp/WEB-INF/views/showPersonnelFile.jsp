@@ -18,18 +18,18 @@
         }
     </style>
 </head>
-<body class="body" background="/images/background.png">
+<body background="/images/background.png">
 <div class="container-fluid">
-    <div style="margin: 5px">
+    <div style="margin: 10px 0px 10px 0px">
         <img src="/images/title.png" style="max-width: 100%"/>
     </div>
-    <div style="background-color: tan; border-radius: 4px">
-        <nav class="nav justify-content-end">
-            <a class="nav-item nav-link active" href="/toHome" style="color:black;font-weight: bold">主页</a>
-            <a class="nav-item nav-link" href="/toAddFile" style="color:black;font-weight: bold">新增档案</a>
+    <div style="background-color: khaki;border-radius: 4px;margin: 10px 0px 10px 0px">
+        <nav class="nav nav-tabs">
+            <a class=" nav-item nav-link" href="/toHome" style="color: gray;font-weight: bold">主页</a>
+            <a class=" nav-item nav-link" href="/toAddFile" style="color: gray;font-weight: bold">新增档案</a>
         </nav>
     </div>
-    <div style="margin: 5px;border: solid 1px;box-shadow: 2px 2px 2px" class="table-responsive">
+    <div style="border: solid 1px;box-shadow: 2px 2px 2px" class="table-responsive">
         <table class="table table-striped table-bordered table-hover text-nowrap">
             <table-caption style="font-weight: bold;font-family: 'Microsoft YaHei UI';margin: 20px;font-size: 200%">查询档案如下:</table-caption>
             <thead class="thead-dark" style="text-align: center">
@@ -67,8 +67,8 @@
                         <td><input class="tableinput" value="${staff.staffSalaryLevel}" name="staffSalaryLevel"></td>
                         <td><input class="tableinput" value="${staff.staffDepartment}" name="staffDepartment"></td>
                         <td><input class="tableinput" value="${staff.working}" name="working"></td>
-                        <td><button class="btn btn-primary" type="submit">更新档案</button> </td>
-                        <td><button class="btn btn-primary" type="button" onclick="window.location.href = '/deleteFile?id=${staff.staffId}'">删除档案</button></td>
+                        <td><button class="btn btn-success" type="submit">更新档案</button> </td>
+                        <td><button class="btn btn-success" type="button" onclick="window.location.href = '/deleteFile?id=${staff.staffId}'">删除档案</button></td>
                     </form>
                 </tr>
             </c:forEach>
