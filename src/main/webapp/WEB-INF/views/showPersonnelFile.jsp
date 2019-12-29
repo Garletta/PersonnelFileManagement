@@ -25,7 +25,7 @@
             <a class=" nav-item nav-link" href="/toHome" style="color: gray;font-weight: bold">主页</a>
             <a class=" nav-item nav-link" href="/toAddFile" style="color: gray;font-weight: bold">新增档案</a>
             <a class=" nav-item nav-link" style="color: gray;font-weight: bold">更新档案</a>
-            <a class=" nav-item nav-link active" style="color: gray;font-weight: bold">检索档案</a>
+            <a class=" nav-item nav-link active" href="/toQueryFile" style="color: gray;font-weight: bold">查询档案</a>
         </nav>
     </div>
     <div class="table-responsive">

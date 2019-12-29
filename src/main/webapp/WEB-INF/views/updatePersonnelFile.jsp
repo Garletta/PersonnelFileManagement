@@ -9,7 +9,7 @@
 <%@ page isELIgnored="false" %>
 <html>
 <head>
-    <title>updatePersonnelFile</title>
+    <title>UpdatePersonnelFile</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href="https://cdn.bootcss.com/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
@@ -25,6 +25,7 @@
             <a class=" nav-item nav-link" href="/toHome" style="color: gray;font-weight: bold">主页</a>
             <a class=" nav-item nav-link" href="/toAddFile" style="color: gray;font-weight: bold">新增档案</a>
             <a class=" nav-item nav-link active" style="color: gray;font-weight: bold">更新档案</a>
+            <a class=" nav-item nav-link" href="/toQueryFile" style="color: gray;font-weight: bold">查询档案</a>
         </nav>
     </div>
     <div class="table-responsive">

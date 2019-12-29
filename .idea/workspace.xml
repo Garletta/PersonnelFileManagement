@@ -6,19 +6,24 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="67dfb109-aeaa-48cd-aacb-e205cc2befb4" name="Default Changelist" comment="update add and update">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/updatePersonnelFile.jsp" afterDir="false" />
+    <list default="true" id="67dfb109-aeaa-48cd-aacb-e205cc2befb4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/bike_girl.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/car_and_gifl.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/PersonnelFile_war_exploded/WEB-INF/classes/com/jx/controller/StaffController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/PersonnelFile_war_exploded/WEB-INF/classes/com/jx/controller/StaffController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/PersonnelFile_war_exploded/WEB-INF/views/addPersonnelFile.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/PersonnelFile_war_exploded/WEB-INF/views/addPersonnelFile.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/PersonnelFile_war_exploded/WEB-INF/views/fileManagement.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/PersonnelFile_war_exploded/WEB-INF/views/fileManagement.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/PersonnelFile_war_exploded/WEB-INF/views/fileManagement.jsp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/PersonnelFile_war_exploded/WEB-INF/views/showPersonnelFile.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/PersonnelFile_war_exploded/WEB-INF/views/showPersonnelFile.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/PersonnelFile_war_exploded/WEB-INF/views/success.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/PersonnelFile_war_exploded/WEB-INF/views/success.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/PersonnelFile_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/PersonnelFile_war_exploded/index.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/jx/controller/StaffController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jx/controller/StaffController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/addPersonnelFile.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/addPersonnelFile.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fileManagement.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fileManagement.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fileManagement.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/queryPersonnelFile.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/showPersonnelFile.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/showPersonnelFile.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/success.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/success.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/updatePersonnelFile.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/updatePersonnelFile.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/jx/controller/StaffController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jx/controller/StaffController.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -240,7 +245,7 @@
       <workItem from="1577414764266" duration="2710000" />
       <workItem from="1577432235529" duration="11613000" />
       <workItem from="1577504443546" duration="1603000" />
-      <workItem from="1577511363970" duration="29898000" />
+      <workItem from="1577511363970" duration="33287000" />
     </task>
     <task id="LOCAL-00001" summary="init UI">
       <created>1577529801803</created>
@@ -256,7 +261,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577594673097</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="update add,delete,update,select">
+      <created>1577601764195</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1577601764195</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -289,6 +301,8 @@
     <MESSAGE value="init UI" />
     <MESSAGE value="update navbar" />
     <MESSAGE value="update add and update" />
-    <option name="LAST_COMMIT_MESSAGE" value="update add and update" />
+    <MESSAGE value="update add,delete,update,select" />
+    <MESSAGE value="update homepage" />
+    <option name="LAST_COMMIT_MESSAGE" value="update homepage" />
   </component>
 </project>
