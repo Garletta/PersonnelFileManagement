@@ -6,17 +6,20 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="67dfb109-aeaa-48cd-aacb-e205cc2befb4" name="Default Changelist" comment="">
+    <list default="true" id="67dfb109-aeaa-48cd-aacb-e205cc2befb4" name="Default Changelist" comment="update add and update">
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/updatePersonnelFile.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/PersonnelFile_war_exploded/WEB-INF/classes/META-INF/PersonnelFile.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/PersonnelFile_war_exploded/WEB-INF/classes/com/jx/controller/StaffController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/PersonnelFile_war_exploded/WEB-INF/classes/com/jx/controller/StaffController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/PersonnelFile_war_exploded/WEB-INF/views/addPersonnelFile.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/PersonnelFile_war_exploded/WEB-INF/views/addPersonnelFile.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/PersonnelFile_war_exploded/WEB-INF/views/fileManagement.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/PersonnelFile_war_exploded/WEB-INF/views/fileManagement.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/PersonnelFile_war_exploded/WEB-INF/views/showPersonnelFile.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/PersonnelFile_war_exploded/WEB-INF/views/showPersonnelFile.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/PersonnelFile_war_exploded/WEB-INF/views/success.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/PersonnelFile_war_exploded/WEB-INF/views/success.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jx/controller/StaffController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jx/controller/StaffController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/addPersonnelFile.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/addPersonnelFile.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fileManagement.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fileManagement.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/showPersonnelFile.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/showPersonnelFile.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/title.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/images/title.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/PersonnelFile.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/success.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/success.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jx/controller/StaffController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jx/controller/StaffController.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -101,6 +104,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="database.data.extractors.current.id" value="SQL Updates" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/images" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
@@ -236,7 +240,7 @@
       <workItem from="1577414764266" duration="2710000" />
       <workItem from="1577432235529" duration="11613000" />
       <workItem from="1577504443546" duration="1603000" />
-      <workItem from="1577511363970" duration="22851000" />
+      <workItem from="1577511363970" duration="29898000" />
     </task>
     <task id="LOCAL-00001" summary="init UI">
       <created>1577529801803</created>
@@ -245,7 +249,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577529801803</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="update navbar">
+      <created>1577594673097</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1577594673097</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -276,6 +287,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init UI" />
-    <option name="LAST_COMMIT_MESSAGE" value="init UI" />
+    <MESSAGE value="update navbar" />
+    <MESSAGE value="update add and update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update add and update" />
   </component>
 </project>

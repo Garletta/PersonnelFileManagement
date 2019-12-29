@@ -49,6 +49,12 @@ public class StaffController {
         return "/success";
     }
 
+    @RequestMapping(value = "/toUpdateFile", method = RequestMethod.POST)
+    public String toUpdateHome(Staff staff, Model model) {
+        model.addAttribute("staff",staff);
+        return "/updatePersonnelFile";
+    }
+
     @RequestMapping(value = "/toHome")
     public String returnHome() {
         return "/fileManagement";
