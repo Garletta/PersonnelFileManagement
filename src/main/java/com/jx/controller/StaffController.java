@@ -17,56 +17,56 @@ public class StaffController {
     @Autowired
     private StaffService staffService;
 
-    @RequestMapping(value = "/queryAllFile", method = RequestMethod.GET)
+    @RequestMapping(value = "queryAllFile", method = RequestMethod.GET)
     public String queryAll(Model model) {
         List<Staff> staffs = staffService.queryAllFile();
         model.addAttribute("staffs", staffs);
-        return "/showPersonnelFile";
+        return "showPersonnelFile";
     }
 
-    @RequestMapping(value = "/queryFile", method = RequestMethod.POST)
+    @RequestMapping(value = "queryFile", method = RequestMethod.POST)
     public String queryFile(Staff staff, Model model) {
         List<Staff> staffs = staffService.queryFile(staff);
         model.addAttribute("staffs",staffs);
-        return "/showPersonnelFile";
+        return "showPersonnelFile";
     }
 
-    @RequestMapping(value = "/addFile", method = RequestMethod.POST)
+    @RequestMapping(value = "addFile", method = RequestMethod.POST)
     public String addFile(Staff staff) {
         int isAdd = staffService.addFile(staff);
-        return "/success";
+        return "success";
     }
 
-    @RequestMapping(value = "/updateFile", method = RequestMethod.POST)
+    @RequestMapping(value = "updateFile", method = RequestMethod.POST)
     public String updateFile(Staff staff) {
         int isUpdate = staffService.updateFile(staff);
-        return "/success";
+        return "success";
     }
 
-    @RequestMapping(value = "/deleteFile", method = RequestMethod.GET)
+    @RequestMapping(value = "deleteFile", method = RequestMethod.GET)
     public String deleteFile(@RequestParam(value = "id") String id) {
         int isDelete = staffService.deleteFile(id);
-        return "/success";
+        return "success";
     }
 
-    @RequestMapping(value = "/toHome")
+    @RequestMapping(value = "toHome")
     public String returnHome() {
-        return "/home";
+        return "home";
     }
 
-    @RequestMapping(value = "/toAddFile")
+    @RequestMapping(value = "toAddFile")
     public String toAddFile() {
-        return "/addPersonnelFile";
+        return "addPersonnelFile";
     }
 
-    @RequestMapping(value = "/toUpdateFile", method = RequestMethod.POST)
+    @RequestMapping(value = "toUpdateFile", method = RequestMethod.POST)
     public String toUpdateHome(Staff staff, Model model) {
         model.addAttribute("staff",staff);
-        return "/updatePersonnelFile";
+        return "updatePersonnelFile";
     }
 
-    @RequestMapping(value = "/toQueryFile")
+    @RequestMapping(value = "toQueryFile")
     public String toQueryFile() {
-        return "/queryPersonnelFile";
+        return "queryPersonnelFile";
     }
 }

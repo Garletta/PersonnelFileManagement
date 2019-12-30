@@ -15,17 +15,17 @@
     <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdn.bootcss.com/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </head>
-<body background="/images/background.png">
+<body background="images/background.png">
 <div class="container">
     <div style="margin: 20px 0px 10px 0px">
-        <img src="/images/title.png" style="max-width: 100%"/>
+        <img src="images/title.png" style="max-width: 100%"/>
     </div>
     <div style="background-color: khaki;border-radius: 4px;margin: 10px 0px 20px 0px">
         <nav class="nav nav-tabs">
-            <a class=" nav-item nav-link" href="/toHome" style="color: gray;font-weight: bold">主页</a>
-            <a class=" nav-item nav-link" href="/toAddFile" style="color: gray;font-weight: bold">新增档案</a>
+            <a class=" nav-item nav-link" href="toHome" style="color: gray;font-weight: bold">主页</a>
+            <a class=" nav-item nav-link" href="toAddFile" style="color: gray;font-weight: bold">新增档案</a>
             <a class=" nav-item nav-link" style="color: gray;font-weight: bold">更新档案</a>
-            <a class=" nav-item nav-link active" href="/toQueryFile" style="color: gray;font-weight: bold">查询档案</a>
+            <a class=" nav-item nav-link active" href="toQueryFile" style="color: gray;font-weight: bold">查询档案</a>
         </nav>
     </div>
     <div class="table-responsive">
@@ -52,7 +52,7 @@
             <tbody>
             <c:forEach var="staff" items="${staffs}" varStatus="status">
                 <tr>
-                    <form method="post" action="/toUpdateFile">
+                    <form method="post" action="toUpdateFile">
                         <td lay-data="{width:40}">${status.index + 1}</td>
                         <td>${staff.staffId} <input type="hidden" value="${staff.staffId}" name="staffId"/></td>
                         <td>${staff.staffName} <input type="hidden" value="${staff.staffName}" name="staffName"/></td>
@@ -67,7 +67,7 @@
                         <td>${staff.staffDepartment} <input type="hidden" value="${staff.staffDepartment}" name="staffDepartment"/></td>
                         <td>${staff.working} <input type="hidden" value="${staff.working}" name="working"/></td>
                         <td><button class="btn btn-sm btn-success" type="submit">编辑</button> </td>
-                        <td><button class="btn btn-sm btn-success" type="button" onclick="window.location.href = '/deleteFile?id=${staff.staffId}'">删除</button></td>
+                        <td><button class="btn btn-sm btn-success" type="button" onclick="window.location.href = 'deleteFile?id=${staff.staffId}'">删除</button></td>
                     </form>
                 </tr>
             </c:forEach>
