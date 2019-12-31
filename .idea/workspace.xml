@@ -8,8 +8,7 @@
   <component name="ChangeListManager">
     <list default="true" id="67dfb109-aeaa-48cd-aacb-e205cc2befb4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jx/controller/StaffController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jx/controller/StaffController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/StaffMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/StaffMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -235,7 +234,7 @@
       <workItem from="1577627844608" duration="5798000" />
       <workItem from="1577695499960" duration="2382000" />
       <workItem from="1577708069127" duration="6027000" />
-      <workItem from="1577773204400" duration="4666000" />
+      <workItem from="1577773204400" duration="5739000" />
     </task>
     <task id="LOCAL-00001" summary="init UI">
       <created>1577529801803</created>
