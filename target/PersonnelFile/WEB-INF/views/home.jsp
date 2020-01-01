@@ -28,7 +28,7 @@
         </nav>
     </div>
     <div>
-        <img src="images/bike_girl.jpg" style="width: 100%;height: 65%">
+        <img src="images/2020.png" style="width: 100%;height: 65%">
     </div>
 </div>
 </body>

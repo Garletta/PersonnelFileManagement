@@ -6,9 +6,16 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="67dfb109-aeaa-48cd-aacb-e205cc2befb4" name="Default Changelist" comment="">
+    <list default="true" id="67dfb109-aeaa-48cd-aacb-e205cc2befb4" name="Default Changelist" comment="update homepage">
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/2020.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/generator.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/generator.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/car_and_gifl.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/PersonnelFile/WEB-INF/classes/generator.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/PersonnelFile/WEB-INF/classes/generator.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/PersonnelFile/WEB-INF/views/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/PersonnelFile/WEB-INF/views/home.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/PersonnelFile/images/car_and_gifl.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/generator.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/generator.properties" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -95,7 +102,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="database.data.extractors.current.id" value="SQL Updates" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/images" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
@@ -234,7 +241,9 @@
       <workItem from="1577627844608" duration="5798000" />
       <workItem from="1577695499960" duration="2382000" />
       <workItem from="1577708069127" duration="6027000" />
-      <workItem from="1577773204400" duration="5739000" />
+      <workItem from="1577773204400" duration="6105000" />
+      <workItem from="1577800011051" duration="739000" />
+      <workItem from="1577884967979" duration="1049000" />
     </task>
     <task id="LOCAL-00001" summary="init UI">
       <created>1577529801803</created>
